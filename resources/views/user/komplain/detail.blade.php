@@ -59,7 +59,11 @@
                                 <p class="mt-0 mb-0 text-sm fw-bolder">Gambar</p>
                             </div>
                             <div class="col">
+                                @if ($komplain['gambar'] != null)
                                 <img class="img-fluid mt-0 mb-0" src="{{ 'http://127.0.0.1:8000/images/'.$komplain['gambar'] }}">
+                                @else
+                                <p class="mt-0 mb-0 text-xs">Tidak Ada Gambar</p>
+                                @endif                   
                             </div>
                         </div>
                         <hr class="mt-0 mb-2 mx-3">
@@ -69,7 +73,7 @@
                             </div>
                             <div class="col">
                                 <a class="mt-0 mb-0 badge badge-sm bg-gradient-info download-btn"
-                                    href="{{ asset('assets/img/home-decor-1.jpg') }}" download>Download</a>
+                                    href="{{ 'http://127.0.0.1:8000/images/'.$komplain['gambar'] }}" download>Download</a>
                             </div>
                         </div>
                         <hr class="mt-0 mb-2 mx-3">

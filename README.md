@@ -35,8 +35,8 @@ https://github.com/erozzae/API-AplikasiPengaduan
 6.	php artisan serve –port=8180
 
 ## Login
-Email : admin@gmail.com
-Password : password
+- Email : admin@gmail.com
+- Password : password
 
 ## Tampilan Website
 - Halaman Login

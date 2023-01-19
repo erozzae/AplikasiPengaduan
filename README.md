@@ -34,6 +34,10 @@ https://github.com/erozzae/API-AplikasiPengaduan
 5.	php artisan config:cache
 6.	php artisan serve –port=8180
 
+## Login
+Email : admin@gmail.com
+Password : password
+
 ## Tampilan Website
 - Halaman Login
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/96459492/213226196-23becf6f-84ee-4062-874c-12e8c70c9354.png">
